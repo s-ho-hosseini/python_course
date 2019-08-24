@@ -1,7 +1,7 @@
 # List operations
 
 
-### Index
+## Index()
 For finding an item location in a collection you can use index.
 
 ### Example 1
@@ -30,6 +30,7 @@ if "mostafa" in names:
     print(names.index("mostafa"))
 ```
 
+## Count()
 The count() method returns the number of elements with the specified value.
 
 ### Exapmle 3
