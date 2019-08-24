@@ -1,5 +1,7 @@
-# String operations
+# List operations
 
+
+### Index
 For finding an item location in a collection you can use index.
 
 ### Example 1
@@ -26,4 +28,13 @@ names = ["ali", "mohsen", "hasan"]
 
 if "mostafa" in names:
     print(names.index("mostafa"))
+```
+
+The count() method returns the number of elements with the specified value.
+
+### Exapmle 3
+```python
+points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+
+x = points.count(9)
 ```
