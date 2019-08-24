@@ -39,3 +39,18 @@ points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
 
 x = points.count(9)
 ```
+
+## Sort()
+
+The sort() method sorts the list ascending by default.
+```python
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort(reverse=True)
+```
+If you want not modify original list you can use sorted function.
+
+```python
+a = ("b", "g", "a", "d", "f", "c", "h", "e")
+x = sorted(a)
+print(x)
+```
