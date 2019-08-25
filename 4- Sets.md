@@ -49,7 +49,7 @@ thisset.remove("banana")
 ### Sets mathematic operations
 
 ### Example 5
-```pyhton 
+```python 
 numbers = {1, 2, 3}
 first = set(numbers)
 second = {1, 6}
