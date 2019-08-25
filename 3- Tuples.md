@@ -20,7 +20,7 @@ print(thistuple[1])
 
 **Note:** Once a tuple is created, you cannot change its values, add or remove item(s). **Tuples are unchangeable**.
 
-**Note:** When we use tuples to wouldn't change the values of a collection accidently.
+**Note:** When we use tuples to wouldn't change the values of a collection accidentaly.
 
 ### Concatenate tuples
 You can cotcatenate two or more tuples with plus(+).
