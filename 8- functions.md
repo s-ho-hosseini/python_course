@@ -60,3 +60,38 @@ increment(2)
 ```
 
 **Note** : Optional paramateres will be after required parameteres.
+
+## xArgs
+
+#### Example 7 
+
+```python
+def multiply(*xArgs):
+    mult = 1
+    for item in xArgs:
+        mult *= item
+    return mult
+```
+
+## xxArgs
+
+```python
+def save_user(**user):
+    print(user)
+
+save_user(id=1,name="amir",family="mohammadi")
+```
+
+## Scope
+
+#### Example 8
+```python
+message = "test"
+
+def greet():
+    global message
+    message = "new message"
+
+greet()
+print(message)
+```
